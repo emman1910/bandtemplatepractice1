@@ -1,0 +1,311 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	overflow: hidden;
+	background-color:  #000000;
+	font-family: Arial;
+	position: sticky;
+	top: 0;
+}
+.navbar a {
+	float: left;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.dropdown1 {
+	float: left;
+}
+.dropdown1 .dropdown2 {
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: #000000;
+}
+.navbar a:hover, .dropdown1:hover .dropdown2 {
+	background-color:  #b3b3b3;
+	color: #000000;
+	cursor: pointer;
+}
+.dp-content {
+	display: none;
+	position: fixed;
+	background-color: #ffffff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dp-content a {
+	float: none;
+	color: #000000;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dp-content a:hover {
+	background-color: #ddd;
+}
+.dropdown1:hover .dp-content {
+	display: block;
+}
+.search {
+	color: white;
+	margin-left: 95%;
+	clear: right;
+}
+.search i {
+	padding: 14.3px 25px;
+}
+.search:hover {
+	background-color: #ff4d4d;
+	cursor: pointer;
+}
+[class="slideshow"] {
+	margin: 0;
+	display: block;
+}
+/*===End Slideshow==*/
+.members {
+	margin: 0;
+	background-color: #ffffff;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	padding-bottom: 250px;
+}
+.members h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: center;
+	padding-top: 45px;
+}
+.members h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+.members p {
+	margin: 0px 70px;
+	text-align: justify;
+}
+.members h2 {
+	opacity: 0.7;
+}
+.imgmembers {
+	height: 128px;
+	text-align: center;
+}
+.imgmembers div {
+	display: inline-block;
+	width: 300px;
+}
+.imgmembers img {
+	border-radius: 9px;
+	width: 200px;
+	height: 230px;
+}
+.imgmembers h3 {
+	margin: 7px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+/*==End Members Section==*/
+#tourdates {
+	background-color: #000000;
+	margin-top: -36px;
+	padding-top: 55px;
+}
+#tourdates h1 {
+	text-align: center;
+	color: #ffffff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: lighter;
+	letter-spacing: 4px;
+}
+#tourdates p {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: oblique;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 13.5px;
+	color: 	#ffffff;
+	margin-bottom: 3.1%;
+}
+#tourdates ul {
+	background-color:  #ffffff;
+	margin: 0px 200px;
+}
+#tourdates ul li {
+	list-style-type: none;
+	border-top: 1px solid #808080;
+	padding: 12px 0px 15px 15px;
+	margin-left: -40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+#tourdates ul .mainbadge {
+	padding: 12px;
+	clear: both;
+}
+.month {
+	opacity: 0.8;
+}
+.redtag {
+	background-color: #ff3333;
+	padding: 5px;
+	color: #ffffff;
+	margin-left: 3.5%;
+}
+.badge {
+	margin-left: 86.5%;
+	margin-bottom: 40px;
+	background-color: #000000;
+	color:  #ffffff;
+	padding: 3px 8.5px;
+	border-radius: 50%;
+
+}
+#tourdates img {
+	width: 295px;
+	height: 250px;
+	margin-left: -12px;
+}
+#tourdates img:hover {
+	opacity: 0.6;
+}
+#tourdates h2 {
+	font-size: 17px;
+	padding-left: 1px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#tourdates h3 {
+	font-size: 15px;
+	padding-left: 1px;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity: 0.7;
+	font-weight: lighter;
+}
+#tourdates p2 {
+	text-align: justify;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.tickets {
+	padding: 10px 14px 10px 14px;
+	font-size: 14px; 
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	background-color: #000000;
+	color:  #ffffff;
+	border: none;
+	font-weight: lighter;
+}
+.tickets:hover {
+	background-color: #e6e6e6;
+	color: #000000;
+	cursor: pointer;
+}
+#tourdates div div {
+	display: inline-block;
+	left: 18.5%;
+	padding: 0px 0px 15px 12px;
+	width: 21.9%;
+	margin: 0px -170px 0px 14.7%;
+	background-color:  #ffffff;
+	border: none;
+}
+/*==End Tourdates==*/
+#contact {
+	padding-top: 5%;
+	background-color: #ffffff;
+}
+#contact h1, h2 {
+	text-align: center;
+}
+#contact h1 {
+	font-size: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 4px;
+	font-weight: lighter;
+}
+#contact h2 {
+	margin-bottom: 4%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12.5px;
+	font-style: oblique;
+	opacity: 0.5;
+}
+#contact .icon1 {
+	margin-left: 20%;
+}
+#contact .icon1 i {
+	padding: 4px;
+	font-size: 18px;
+}
+#contact .form input {
+	padding: 10px 0px 10px 10px;
+	margin: 0px 11px 8px 0px;
+	font-size: 15px;
+	width: 26%;
+}
+.iconname {
+	margin-left: 15px;
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.iconname1 {
+	margin-left: 21px;
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.iconname2 {
+	margin-left: 19px;
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.form {
+	margin-left: 50%;
+	margin-top: -5.9%;
+}
+#contact button {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px 13px 10px 13px;
+	border: none;
+	margin-left: 44.5%;
+	margin-top: -2%;
+}
+#contact button:hover {
+	background-color: #e6e6e6; 
+	color: #000000;
+	cursor: pointer;
+}
+/*==End Contact==*/
+footer {
+	text-align: center;
+}
+.foot1 i {
+	font-size: 25px;
+	opacity: 0.6;
+}
+.foot1 p {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000000;
+	opacity: 0.6;
+}
+.lastp a {
+	color: #000000;
+}
+.foot1 i:hover {
+	opacity: 0.4;
+}
+/*==End Footer==*/
